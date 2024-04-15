@@ -1,0 +1,39 @@
+Attore: Amministratore
+
+Descrizione: Creazione di un nuovo corso e assegnazione del personale (professori e tutor)
+
+Scenario:
+	1 L'amministratore accede alla dashboard di gestione del personale.
+	2 Seleziona l'opzione per creare un nuovo corso.
+	3 Compila i dettagli del nuovo corso, come titolo, descrizione e date.
+	4 Dopo aver creato il corso, l'amministratore assegna il personale ad esso selezionando i membri del personale disponibili e 	  specificando i loro ruoli.
+	5 Conferma l'assegnazione del personale al nuovo corso.
+	6 Il sistema aggiorna automaticamente le informazioni del nuovo corso con il personale assegnato.
+
+
+
+Attore: Studente
+
+Descrizione: Iscrizione a un corso
+
+Scenario:
+	1 Lo studente accede alla piattaforma del corso.
+	2 Naviga tra i corsi disponibili e seleziona il corso a cui desidera iscriversi.
+	3 La piattaforma mostra i dettagli del corso selezionato, come titolo, descrizione, date e durata.
+	4 Lo studente verifica i dettagli del corso per assicurarsi che sia quello desiderato.
+	5 Seleziona l'opzione per iscriversi al corso.
+	6 Il sistema elabora la richiesta di iscrizione dello studente e conferma l'avvenuta iscrizione.
+
+
+
+Attore: Amministratore
+
+Descrizione: Visualizzazione dettagli corso e personale 
+
+Scenario:
+	1 L'utente accede alla dashboard della gestione del personale.
+	2 Naviga tra i corsi disponibili e seleziona il corso di interesse.
+	3 La dashboard visualizza i dettagli del corso selezionato, come titolo, descrizione e date.
+	4 L'utente espande la sezione relativa al personale associato al corso.
+	5 Vengono mostrati i membri del personale assegnati al corso con le relative informazioni come nome, ruolo, contatto e 	 	  competenze.
+	6 L'utente può visualizzare ulteriori dettagli o tornare alla lista dei corsi.
